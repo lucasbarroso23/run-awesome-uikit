@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E3F9EF32AEF13F8005BEB7D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F9EF22AEF13F8005BEB7D /* TabBarViewController.swift */; };
+		4E3F9EF52AEF16D2005BEB7D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F9EF42AEF16D2005BEB7D /* HomeViewController.swift */; };
+		4E3F9EF72AEF1704005BEB7D /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F9EF62AEF1704005BEB7D /* HistoryViewController.swift */; };
 		4EBAE7522AEBF19100C7FE5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBAE7512AEBF19100C7FE5C /* AppDelegate.swift */; };
 		4EBAE7542AEBF19100C7FE5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBAE7532AEBF19100C7FE5C /* SceneDelegate.swift */; };
 		4EBAE75B2AEBF19100C7FE5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EBAE75A2AEBF19100C7FE5C /* Assets.xcassets */; };
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E3F9EF22AEF13F8005BEB7D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		4E3F9EF42AEF16D2005BEB7D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4E3F9EF62AEF1704005BEB7D /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 		4EBAE74E2AEBF19100C7FE5C /* RunAwesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunAwesome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBAE7512AEBF19100C7FE5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EBAE7532AEBF19100C7FE5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +143,7 @@
 		4EBAE7822AEBF48800C7FE5C /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				4E3F9EF22AEF13F8005BEB7D /* TabBarViewController.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -152,6 +159,8 @@
 			isa = PBXGroup;
 			children = (
 				4EBAE7872AEBF50200C7FE5C /* BaseViewController.swift */,
+				4E3F9EF42AEF16D2005BEB7D /* HomeViewController.swift */,
+				4E3F9EF62AEF1704005BEB7D /* HistoryViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -286,7 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E3F9EF52AEF16D2005BEB7D /* HomeViewController.swift in Sources */,
+				4E3F9EF32AEF13F8005BEB7D /* TabBarViewController.swift in Sources */,
 				4EBAE7522AEBF19100C7FE5C /* AppDelegate.swift in Sources */,
+				4E3F9EF72AEF1704005BEB7D /* HistoryViewController.swift in Sources */,
 				4EBAE7542AEBF19100C7FE5C /* SceneDelegate.swift in Sources */,
 				4EBAE7882AEBF50200C7FE5C /* BaseViewController.swift in Sources */,
 			);

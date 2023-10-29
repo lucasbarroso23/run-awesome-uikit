@@ -17,13 +17,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         let window = UIWindow(windowScene: windowScene)
-        
-        // temp code
-        let vc = BaseViewController()
-        window.rootViewController = vc
-        
+        let home = TabBarViewController()
+        window.rootViewController = home
         self.window = window
-        window.makeKeyAndVisible()
+        window.makeKeyAndVisible()        
+        
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
