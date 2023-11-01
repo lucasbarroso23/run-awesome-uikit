@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E035D0F2AF30D9700BF4E52 /* CircularButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E035D0E2AF30D9700BF4E52 /* CircularButton.swift */; };
 		4E3F9EF32AEF13F8005BEB7D /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F9EF22AEF13F8005BEB7D /* TabBarViewController.swift */; };
 		4E3F9EF52AEF16D2005BEB7D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F9EF42AEF16D2005BEB7D /* HomeViewController.swift */; };
 		4E3F9EF72AEF1704005BEB7D /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E3F9EF62AEF1704005BEB7D /* HistoryViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E035D0E2AF30D9700BF4E52 /* CircularButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButton.swift; sourceTree = "<group>"; };
 		4E3F9EF22AEF13F8005BEB7D /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		4E3F9EF42AEF16D2005BEB7D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4E3F9EF62AEF1704005BEB7D /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				4E3F9EF82AF1BABC005BEB7D /* GradientView.swift */,
+				4E035D0E2AF30D9700BF4E52 /* CircularButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E035D0F2AF30D9700BF4E52 /* CircularButton.swift in Sources */,
 				4E3F9EF52AEF16D2005BEB7D /* HomeViewController.swift in Sources */,
 				4E3F9EF32AEF13F8005BEB7D /* TabBarViewController.swift in Sources */,
 				4EBAE7522AEBF19100C7FE5C /* AppDelegate.swift in Sources */,
